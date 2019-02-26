@@ -6,9 +6,10 @@ public class Coin : MonoBehaviour
 {
     GameLogic gameLogic;
 
-    void Start () 
+    void Start() 
     {
         gameLogic = GameObject.FindGameObjectWithTag("Manager").GetComponent<GameLogic> ();
+        //gameLogic = null;
 
     }
 	
@@ -16,21 +17,30 @@ public class Coin : MonoBehaviour
 	{
         if (col.CompareTag("Player"))
         {
-
-            gameLogic.AddCoin ();
-            Destroy(this.gameObject);
+            if (gameLogic != null)
+            {
+                gameLogic.AddCoin();
+                Destroy(this.gameObject);
+                Debug.Log("Gamelogic!=null");
+            }
+            else
+            {
+                Debug.Log("Gamelogic=null");
+            }
 
             Debug.Log("playercollision");
         }
         else if(col.CompareTag("Ground"))
         {
+            if (gameLogic == null)
+            {
+                Debug.Log("Gamelogic=null22");
+                return;
+            }
+
             Destroy(this.gameObject);
             Debug.Log("groundcollision");
         }
-	}
-
-
-
-
+    }
 }
 // Soll coins die eingesammelt werden zählen
