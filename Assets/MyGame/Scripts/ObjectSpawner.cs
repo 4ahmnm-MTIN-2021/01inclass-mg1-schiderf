@@ -15,7 +15,7 @@ public class ObjectSpawner : MonoBehaviour
         if (Time.time > nextSpawn)
         {
             nextSpawn = Time.time + spawnRate;
-            randX = Random.Range(-5.8f, 5.8f);
+            randX = Random.Range(-8.5f, 8.5f);
             whereToSpawn = new Vector2(randX, transform.position.y);
             Instantiate(enemy, whereToSpawn, Quaternion.identity);
         }

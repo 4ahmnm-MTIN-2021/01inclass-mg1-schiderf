@@ -6,37 +6,31 @@ using TMPro;
 public class GameLogic : MonoBehaviour 
 {
     private SceneLoader sceneLoader;
-    public TextMeshProUGUI tomatoNumber;
-    public TextMeshProUGUI coinNumber;
-    public int tomatoAmount;
-    public int maxTomatoAmount;
-    public int coinAmount;
+    public TextMeshProUGUI liveNumber;
+    public int liveAmount;
+    public int maxLiveAmount;//ADD TIMER HERE
     public GameObject player;
 
 	void Start() 
     {
-        tomatoAmount = 3; 
+        liveAmount = 3; 
         sceneLoader = GameObject.FindGameObjectWithTag("Manager").GetComponent<SceneLoader>(); //definiere Sceneloader Script den ich brauche
     }
 	
 	void Update() 
     {
-        tomatoNumber.text = tomatoAmount.ToString();
-        coinNumber.text = coinAmount.ToString();
+        Debug.Log("liveNumber"+liveNumber==null);
+        liveNumber.text = liveAmount.ToString();
     }
 
-    public void DecreaseTomatos()
+    public void DecreaseLives()
     {
-        tomatoAmount --;
-        if (tomatoAmount == 0)
+        liveAmount --;
+        if (liveAmount == 0)
         {
-            PlayerPrefs.SetInt("coinAmount", coinAmount);
             sceneLoader.SwitchToScene("GameOver");
         }
     }
 
-    public void AddCoin() 
-    {
-        coinAmount ++ ; 
-    }
+    //TIMER!
 }

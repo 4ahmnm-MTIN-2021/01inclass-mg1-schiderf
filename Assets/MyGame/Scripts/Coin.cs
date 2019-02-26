@@ -1,5 +1,5 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
+/* using System.Collections.Generic;
 using UnityEngine;
 
 public class Coin : MonoBehaviour 
@@ -19,7 +19,6 @@ public class Coin : MonoBehaviour
         {
             if (gameLogic != null)
             {
-                gameLogic.AddCoin();
                 Destroy(this.gameObject);
                 Debug.Log("Gamelogic!=null");
             }
@@ -43,4 +42,4 @@ public class Coin : MonoBehaviour
         }
     }
 }
-// Soll coins die eingesammelt werden zählen
+// Soll coins die eingesammelt werden zählen */

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Tomatoe : MonoBehaviour 
+public class Live : MonoBehaviour 
 {
     GameLogic gameLogic;
    
@@ -14,9 +14,10 @@ public class Tomatoe : MonoBehaviour
 	
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.CompareTag("Player"))
+        Debug.Log(col.tag);
+        if (gameObject.name == "ice" && col.CompareTag("Player"))
         {
-            gameLogic.DecreaseTomatos();
+            gameLogic.DecreaseLives();
             Destroy(this.gameObject);
         }
         else if (col.CompareTag("Ground"))
