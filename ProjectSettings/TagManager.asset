@@ -8,6 +8,8 @@ TagManager:
   - Manager
   - RightCollider
   - LeftCollider
+  - Heart
+  - Ice
   layers:
   - Default
   - TransparentFX

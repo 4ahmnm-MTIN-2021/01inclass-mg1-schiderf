@@ -22,10 +22,10 @@ GameObject:
   - component: {fileID: 212658975724999266}
   - component: {fileID: 61882186941970220}
   - component: {fileID: 50477749289199622}
-  - component: {fileID: 114043339786669478}
+  - component: {fileID: 114578339650476774}
   m_Layer: 0
   m_Name: Ice
-  m_TagString: Untagged
+  m_TagString: Ice
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88,7 +88,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 38.719997, y: 20.238228}
   m_EdgeRadius: 0
---- !u!114 &114043339786669478
+--- !u!114 &114578339650476774
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -96,7 +96,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1976153103820072}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76f58e1a8c6c9494d89a7c36a3e6cfd3, type: 3}
+  m_Script: {fileID: 11500000, guid: 45e86ac6449e44a349ab3ede82236629, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &212658975724999266

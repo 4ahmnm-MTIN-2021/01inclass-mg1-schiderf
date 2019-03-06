@@ -14,9 +14,17 @@ public class Live : MonoBehaviour
 	
     private void OnTriggerEnter2D(Collider2D col)
     {
-        Debug.Log(col.tag);
-        if (gameObject.name == "ice" && col.CompareTag("Player"))
+        Debug.Log("****" + col.name + " " + gameObject.tag);
+
+        if (col.name == "Character" && gameObject.tag == "Heart" )
         {
+            Debug.Log("destroyme+1");
+            gameLogic.IncreaseLives();
+            Destroy(this.gameObject);
+        }
+        else if (gameObject.tag == "Ice" && col.CompareTag("Player"))
+        {
+            Debug.Log("destroyme-1");
             gameLogic.DecreaseLives();
             Destroy(this.gameObject);
         }
