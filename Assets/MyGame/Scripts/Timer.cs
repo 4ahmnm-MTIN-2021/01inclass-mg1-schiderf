@@ -11,7 +11,7 @@ public class Timer : MonoBehaviour
 
     private TextMeshProUGUI watch;
 
-    private float timer;
+    public float timer;
 
     private int interval = 10;
 
@@ -21,11 +21,9 @@ public class Timer : MonoBehaviour
     void Start()
 
     {
-
         watch = gameObject.GetComponent<TextMeshProUGUI>();
 
         watch.text = "00:00:00";
-
     }
 
 

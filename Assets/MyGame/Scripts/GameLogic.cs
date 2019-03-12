@@ -11,6 +11,8 @@ public class GameLogic : MonoBehaviour
     public int maxLiveAmount;//ADD TIMER HERE
     public GameObject player;
     public string timerTime;
+    public Timer timer;
+    public TimerData timerData;
 
 	void Start() 
     {
@@ -36,6 +38,7 @@ public class GameLogic : MonoBehaviour
         liveAmount--;
         if (liveAmount == 0)
         {
+            timerData.timer = timer.timer;
             sceneLoader.SwitchToScene("GameOver");
         }
     }
@@ -45,5 +48,4 @@ public class GameLogic : MonoBehaviour
         this.timerTime = timeTimer;
     }
 
-    //TIMER!
 }

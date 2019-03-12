@@ -951,6 +951,8 @@ MonoBehaviour:
   maxLiveAmount: 0
   player: {fileID: 96507396}
   timerTime: 
+  timer: {fileID: 1066793067}
+  timerData: {fileID: 11400000, guid: 220791dd1c05a4c97b3d3e71baa64104, type: 2}
 --- !u!4 &955493084
 Transform:
   m_ObjectHideFlags: 0
@@ -1143,6 +1145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameLogic: {fileID: 955493083}
+  timer: 0
 --- !u!1 &1331283958
 GameObject:
   m_ObjectHideFlags: 0
