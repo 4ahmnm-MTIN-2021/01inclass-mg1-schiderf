@@ -30,7 +30,7 @@ Try to collect hearts and elude the dangerous ice from below. You have to surviv
 
  + Concept:
 <div>
-<img src="./Screenshots/Concept.png" width="250">
+<img src="./Screenshots/Concept.jpg" width="250">
 </div>
 
  + In game Screenshots:
