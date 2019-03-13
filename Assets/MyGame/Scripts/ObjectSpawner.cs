@@ -22,5 +22,4 @@ public class ObjectSpawner : MonoBehaviour
     }
 }
 
-// Objekte (Tomaten und Coins) sollen spawnen
 //Quelle: https://www.youtube.com/watch?v=AI8XNNRpTTw

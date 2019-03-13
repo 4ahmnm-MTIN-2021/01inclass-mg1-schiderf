@@ -8,7 +8,7 @@ public class GameLogic : MonoBehaviour
     private SceneLoader sceneLoader;
     public TextMeshProUGUI liveNumber;
     public int liveAmount;
-    public int maxLiveAmount;//ADD TIMER HERE
+    public int maxLiveAmount;
     public GameObject player;
     public string timerTime;
     public Timer timer;
@@ -23,14 +23,12 @@ public class GameLogic : MonoBehaviour
 	
 	void Update() 
     {
-//        Debug.Log("liveNumber"+liveNumber==null);
         liveNumber.text = liveAmount.ToString();
     }
 
     public void IncreaseLives()
     {
         liveAmount++;
-        Debug.Log("liveamount: " + liveAmount);
     }
 
     public void DecreaseLives()
@@ -44,8 +42,6 @@ public class GameLogic : MonoBehaviour
     }
     public void SetTimeTimer(string timeTimer)
     {
-        Debug.Log("TimerTime");
         this.timerTime = timeTimer;
     }
-
 }
