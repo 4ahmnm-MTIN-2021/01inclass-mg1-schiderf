@@ -1,8 +1,6 @@
-# StageSurviver-sglavan
-The 2D game StageSurviver is about a character called Tom on a stage. 
-Tom is really trying to impress his audience, but not everyone likes his performance on stage. 
-He has to collect coins and to elude tomatoes falling down. 
-His goal is surviveing and collecting as many coins as possible.
+# IceFall-sglavan
+This 2D game is about Carlos the ice armadillo who trys to survive in the dangerous Ice Age. 
+Try to collect hearts and elude the dangerous ice from below. You have to survive as long as possible. 
 
  + Progress: Game is finished and playable.
 
@@ -32,20 +30,28 @@ His goal is surviveing and collecting as many coins as possible.
 
  + Concept:
 <div>
-<img src="./Screenshots/concept.png" width="250">
+<img src="./Screenshots/Concept.png" width="250">
 </div>
 
  + In game Screenshots:
-
+<div>
+<img src="./Screenshots/StartScene.png" width="250">
+</div>
+<div>
+<img src="./Screenshots/MainScene.png" width="250">
+</div>
+<div>
+<img src="./Screenshots/GameOverScene.png" width="250">
+</div>
 
  + Limitations:
-   This Game is very simple. There is no stimulation for the user to play the game longer than a few minutes.
+   This Game is very simple. There is no stimulation for the user to play the game longer than a few minutes. 
+   Also is the background not moving upwards, so there is no illusion of Carlos falling down.
 
  + Lessons Learned:
-   - How to set up a game
-   - RandomGenerator
-   - Player Movement left, right (x-axis)
-   - SceneLoader
+   - How reuse an existing game setup for a new game in unity
+   - Timer
+   - Usage of Scriptable Objects
 
 
 Copyright by Sarah Glavan, 2019
