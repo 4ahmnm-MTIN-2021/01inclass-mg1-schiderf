@@ -405,6 +405,48 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 332479642}
   m_CullTransparentMesh: 0
+--- !u!1001 &619515219
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4634676990021202, guid: 2ab5eb040c5dc4513ac10f37c1333dbb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.018
+      objectReference: {fileID: 0}
+    - target: {fileID: 4634676990021202, guid: 2ab5eb040c5dc4513ac10f37c1333dbb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.026
+      objectReference: {fileID: 0}
+    - target: {fileID: 4634676990021202, guid: 2ab5eb040c5dc4513ac10f37c1333dbb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4634676990021202, guid: 2ab5eb040c5dc4513ac10f37c1333dbb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4634676990021202, guid: 2ab5eb040c5dc4513ac10f37c1333dbb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4634676990021202, guid: 2ab5eb040c5dc4513ac10f37c1333dbb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4634676990021202, guid: 2ab5eb040c5dc4513ac10f37c1333dbb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4634676990021202, guid: 2ab5eb040c5dc4513ac10f37c1333dbb, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2ab5eb040c5dc4513ac10f37c1333dbb, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &799958042
 GameObject:
   m_ObjectHideFlags: 0
@@ -478,7 +520,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_TargetDisplay: 0
 --- !u!224 &799958046
 RectTransform:
