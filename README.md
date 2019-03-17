@@ -26,6 +26,7 @@ Try to collect hearts and elude the dangerous ice from below. You have to surviv
  + Third party material:
  	- https://unity3d.com/de/learn/tutorials/projects/2d-ufo-tutorial/controlling-player
  	- https://www.youtube.com/watch?v=AI8XNNRpTTw
+	- Timer Script by our class
 
 
  + Concept:
@@ -53,6 +54,11 @@ Try to collect hearts and elude the dangerous ice from below. You have to surviv
    - Timer
    - Usage of Scriptable Objects
 
++ Testcase 1:
+- Press "Start"
+- Try to survive for 15 sec
+- Kill the character
+- Press "Try Again"
 
 Copyright by Sarah Glavan, 2019
 
