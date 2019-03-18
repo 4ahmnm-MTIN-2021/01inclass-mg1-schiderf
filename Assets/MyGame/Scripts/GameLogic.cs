@@ -18,7 +18,7 @@ public class GameLogic : MonoBehaviour
     {
         liveAmount = 3; 
         timerTime = "00:00:00";
-        sceneLoader = GameObject.FindGameObjectWithTag("Manager").GetComponent<SceneLoader>(); //definiere Sceneloader Script den ich brauche
+        sceneLoader = GameObject.FindGameObjectWithTag("Manager").GetComponent<SceneLoader>();
     }
 	
 	void Update() 
