@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using TMPro;
 
 public class GameLogic : MonoBehaviour 
@@ -40,6 +38,7 @@ public class GameLogic : MonoBehaviour
             sceneLoader.SwitchToScene("GameOver");
         }
     }
+
     public void SetTimeTimer(string timeTimer)
     {
         this.timerTime = timeTimer;

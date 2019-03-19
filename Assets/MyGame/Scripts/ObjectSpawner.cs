@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ObjectSpawner : MonoBehaviour
 {
@@ -21,5 +19,4 @@ public class ObjectSpawner : MonoBehaviour
         }
     }
 }
-
 //Quelle: https://www.youtube.com/watch?v=AI8XNNRpTTw
